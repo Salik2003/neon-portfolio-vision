@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "I'm a Software Engineer.";
+  const fullText = "I'm a Full-Stack Developer.";
 
   useEffect(() => {
     let index = 0;
@@ -48,12 +48,12 @@ const Hero = () => {
             </p>
             
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-space font-medium text-foreground mb-2 fade-in-up delay-200">
-              A Designer who
+              A Developer who believes
             </h2>
             
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-space font-medium mb-6 fade-in-up delay-300">
-              Judges a book by its{" "}
-              <span className="text-primary neon-glow">Cover...</span>
+              It always seems impossible until it's{" "}
+              <span className="text-primary neon-glow">done.</span>
             </h2>
 
             <div className="mb-4 fade-in-up delay-400">
@@ -63,10 +63,6 @@ const Hero = () => {
               </h1>
             </div>
 
-            <p className="text-muted-foreground text-sm md:text-base mb-8 fade-in-up delay-500">
-              Currently, I'm a Software Engineer at{" "}
-              <span className="text-primary neon-glow-sm">Facebook</span>.
-            </p>
 
             {/* Bio */}
             <p className="text-muted-foreground text-sm md:text-base leading-relaxed fade-in-up delay-600">
