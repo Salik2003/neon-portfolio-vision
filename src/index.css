@@ -231,3 +231,21 @@
     }
   }
 }
+/* Base Animation Class */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, visibility;
+}
+
+/* The class added by JS when element is visible */
+.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Staggered delays for child elements */
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
